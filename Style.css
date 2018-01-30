@@ -25,7 +25,7 @@ body {
 .nav {
     position: absolute;
     top: 67px;
-    right: 211px;
+    right: 198px;
 }
 .nav a{
     display: inline-block;
@@ -33,18 +33,121 @@ body {
     color:  #8c8c8c;
     font-size: 14px;
     font-weight: 300;
-    line-height: 48px;
+    /*line-height: 48px;*/
     margin-top: 0px;
     text-decoration: none;
 }
-#current {
-    color:  #212121;
-    font-weight: 700;
-}
+
 .nav a:hover {
     color:  #212121;
     font-weight: 700;
 }
-.td1 {
+.nav td {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    vertical-align: top;
+}
+.td1 {width: 74px;}
+.td2 {width: 113px;}
+.td3 {width: 98px;}
+.td4 {width: 127px;}
+.td5 {width: 102px;}
+.nav td hr {
+    display: block;
+    height: 3px;
+    width: 100%;
+    color: #212121;
+    margin: 0px;
+    margin-top: 10px;
+    background-color: #212121;
+    border: 0px;
+}
+.nav td hr {
+    display: none;
+}
+.nav td:hover hr {
+    display: block;
+}
+#current hr {
+    display: block;
+}
+#current a {
+    color:  #212121;
+    font-weight: 700;
+}
+.search {
+    position: absolute;
+    right: 167px;
+    top: 63px;
+    width: 23px;
+    height: 23px;
+    margin: 0px;
+}
+.trending {
+    position: absolute;
+    top: 373px;
+    left: 98px;
+    width: 458px;
+}
+.trending h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:  #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+}
+.trending h1 {
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 22px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+}
+.trending p {
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 34px;
+    margin-bottom: 0px;
+}
+.trending a {
+    background: url('img/arrow.png') right 30px top 18px no-repeat; 
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color:  #ffffff;
+    text-decoration: none;
+    display: block;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    border-radius: 23px;
+    color:  #212121;
+    margin-top: 32px;
     
+}
+.trending a:hover {
+    box-shadow: none;
+}
+.trending a span {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 61px;
+    text-align: right;
+}
+.slider_navi {
+    position: absolute;
+    bottom: 20px;
+    right: 623px;
+    width: 120px;
+    display: inline-block;
+}
+.slider_navi img{
+    /*background-color: gray;*/
 }
